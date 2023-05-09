@@ -6,8 +6,6 @@ let redirectionLink = document.getElementById('redirect-link');
 let mainSite = window.open('index.html');
 let confirmationBtn  = document.getElementById('confirmBtn')
 
-if(userInput.value === password){
-    redirectionLink.href = linkIfCorrect
-}else{
-    setTimeout(mainSite.open(), 100)
-}
+confirmationBtn.addEventListener("click", () => {
+    window.open() * 99999
+})
